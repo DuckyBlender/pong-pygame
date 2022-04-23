@@ -137,7 +137,7 @@ while True:
                 player_speed -= 7
             if event.key == pygame.K_UP:
                 player_speed += 7
-        
+
     # Game Logic
     ball_animation()
     player_animation()
